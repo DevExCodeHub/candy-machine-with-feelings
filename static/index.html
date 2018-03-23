@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>IBM Candy Machine</title>
+    <link rel="stylesheet" href="/static/basscss.css" />
+  </head>
+  <body>
+    <section class="flex flex-center center" style="height: 100vh;">
+      <div class="mx-auto">
+        <h1 class="h1 caps mb0 regular">
+          <img src="/static/watson-logo.svg" />
+          <br />
+        Candy Machine <br> with feelings
+        </h1>
+        <h3>Choose your Language: </h3>
+        <p>
+          <a class="rounded h1 btn btn-primary bg-navy  mt3 mb4 p4" href="/english">English</a></button>
+<a class="rounded h1 btn btn-primary bg-navy mt3 mb4 p4" href="/arabic">عــربــــي</a></button>
+
+        </p>
+        <br />
+        <div id="results"></div>
+      </div>
+    </section>
+    <script src="/static/english-watson-speech.js"></script>
+    <script src="/static/english-client.js"></script>
+  </body>
+</html>
