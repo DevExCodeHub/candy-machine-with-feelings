@@ -1,7 +1,5 @@
 # Candy Machine With Feelings
-
 ![Screenshot](http://i.imgur.com/1hPcd1O.png)
-
 The project is originally created by [Josh Zheng](https://www.ibm.com/blogs/watson/2016/07/build-candy-machine-feelings/) to build a candy machine that could understand speech and dispense different types of candy based on the sentiment of the words using Watson Speech to Text with Watson AlchemyLanguage. We added an Arabic version to the project using Watson Language Translator.
 
 ## About
@@ -15,7 +13,7 @@ The front end (client.js) uses the [Watson Javascript Speech To Text SDK](https:
 1. Clone or download the repository
 2. Login to your IBM Cloud account, if you don't have one already you can [sign up for IBM Cloud](https://console.bluemix.net/registration/).
 3. Create `Speech to Text`,`AlchemyLanguage` and `Language Translator` services from Watson catalog in IBM Cloud.  
-4. Update `.env` file with your service credentials
+4. Add `crd.env` file with your service credentials
    ```
     STT_USERNAME=*your watson speech to text service credential*  
     STT_PASSWORD=*your watson speech to text service credential*  
