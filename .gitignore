@@ -2,6 +2,7 @@ speech.wav
 candy.log
 .DS_Store
 .env
+crd.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
