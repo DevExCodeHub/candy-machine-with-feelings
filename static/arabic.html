@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title> قــل شـيئــاً لـطيفـــاً </title>
+    <link rel="stylesheet" href="/static/basscss.css" />
+  </head>
+  <body>
+    <section class="flex flex-center center" style="height: 100vh;">
+      <div class="mx-auto">
+        <h1 class="h1 mb0 bold">
+          <img src="/static/watson-logo.svg" />
+          <br />
+          قــل شـيئــاً لـطيفـــاً
+        </h1>
+        <h3 dir="rtl">عند انتهاء التسجيل، ستحصل على حلوى حلوة أو حامضة حسب عبارتك.
+		</h3>
+        <p>
+          <button id="stop" class="rounded h1 btn btn-primary bg-red mt3 mb4 p4" style="font-size:50px" disabled>&nbsp;إيقاف&nbsp;</button>
+          <button id="record" class="rounded h1 btn btn-primary mt3 mb4 p4" style="font-size:50px" disabled>تسجيل</button>
+		</p>
+        <br />
+        <div id="results"></div>
+      </div>
+    </section>
+    <script src="/static/arabic-watson-speech.js"></script>
+    <script src="/static/arabic-client.js"></script>
+  </body>
+</html>
